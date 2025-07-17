@@ -6,8 +6,8 @@ Tiny, reversible embedding of big ints => unit vectors (n‑dim sphere) via mult
 from ordinal import OrdinalEmbedding
 emb = OrdinalEmbedding(max_value=2**32-1, n_dim=18)
 
-vec = emb(torch.tensor([123456789]))  # → 18‑D unit vector
-num = emb.decode(vec)                 # → 123456789
+vec = emb(torch.tensor([123456789]))  # => 18‑D unit vector
+num = emb.decode(vec)                 # => 123456789
 ```
 
 # How it works
