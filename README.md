@@ -13,7 +13,7 @@ num = emb.decode(vec)                 # → 123456789
 # How it works
 pick co‑prime periods (primes)
 
-encode int as phases 2π·x/p → [cos, sin] pairs
+encode int as phases 2π·x/p => [cos, sin] pairs
 
 normalize; decode with Garner CRT
 
