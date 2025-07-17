@@ -17,4 +17,4 @@ encode int as phases 2π·x/p → [cos, sin] pairs
 
 normalize; decode with Garner CRT
 
-That’s it. Vector is dope for outputs slot neatly into von mises‑style density/mixture density estimation and spherical invertible flows if you need a continous ordinal target.
+That’s it. Vector is dope for outputs - slots neatly into von mises‑style density/mixture density estimation and spherical invertible flows if you need a continous ordinal target.
