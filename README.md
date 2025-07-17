@@ -11,10 +11,9 @@ num = emb.decode(vec)                 # => 123456789
 ```
 
 # How it works
-pick co‑prime periods (primes)
+1. pick co‑prime periods (primes)
+2. encode int as phases 2π·x/p => [cos, sin] pairs
 
-encode int as phases 2π·x/p => [cos, sin] pairs
-
-normalize; decode with Garner CRT
+3. normalize; decode with Garner CRT
 
 That’s it. Vector is dope for outputs - slots neatly into von mises‑style density/mixture density estimation and spherical invertible flows if you need a continous ordinal target.
